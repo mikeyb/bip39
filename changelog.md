@@ -1,3 +1,199 @@
+# 0.5.6
+
+* Add warning to not share info from the page
+
+# 0.5.5
+
+* Fix BIP85 bug when pressing enter
+
+# 0.5.4
+
+* Add Particl network
+* Add Divi network
+* Add option to turn autocompute on / off
+* Add option to set custom number of pbkdf2 rounds
+* Fix blank mnemonic errors when using only seed
+
+# 0.5.3
+
+Add Starname network
+Add Terra network
+Add Bitcoin Private network
+Add Thorchain network
+Change Xwc network to Xwcc and add new Xwc
+Fix Bip85 works without mnemonic (using xprv)
+Fix extended key not updating when switching tabs
+Fix incorrect html closing tag
+
+# 0.5.2
+
+* Show ethereum private keys with correct padding
+
+# 0.5.1
+
+* Add Portuguese language
+* Add BIP85
+* Add Ritocoin
+* Add Cosmos Hub
+* Add ZooBC
+* Add Zcoin/Firo rebranded coin
+* Update Namecoin WIF
+
+# 0.5.0
+
+* Remove bias from base 6 and base 10 entropy
+* Add notes about card entropy
+* Hide/show split mnemonic cards
+* Fix link to standalone release file
+* Add Scribe network
+* Add Nano network
+* Add TRX network
+* Add Binance Smart Chain network
+* Clean up dependencies for eos-util
+* Update bootstrap to 3.4.1
+* Bump library versions
+
+# 0.4.3
+
+* Add FIO - Foundation for Interwallet Operability
+* Add Argoneum
+* Add CranePay
+* Add Jingtum network
+* Add MOAC
+* Update RSK network
+* Add HandShake
+* Add Sugarchain testnet
+* Fix wording "is a checksum" / "contains a checksum"
+* Fix bech32 prefix for monacoin
+
+# 0.4.2
+
+* Fix ethereum private key format
+
+# 0.4.1
+
+* Fix no loading on chrome with third-party cookies blocked
+* Add EtherCore
+* Add RSK network
+* Add DeepOnion segwit parameters
+* Fix ethereum xpub derivation
+
+# 0.4.0
+
+* Third party libraries deduplicated and minified
+* Add text reminder for multibit wallet change addresses
+* Seed field can be edited
+* Add bitcoin regtest parameters
+* Mnemonic conversion to entropy is hex encoded instead of binary
+* Entropy type can be manually selected
+* Add Bitcoin P2WSH and P2WSH-P2SH
+* Add Czech language
+
+# 0.3.14
+
+* Ethereum uses standard BIP44 as per majority of wallets (Issue 378)
+
+# 0.3.13
+
+* Add Thought network
+* Add Energyweb network
+* Add Elastos network
+* Add Groestlcoin
+* Fix for syscoin network
+* Add BSV, RPD, MONKEY, ARYA
+* Rename Zencash to Horizen
+* Update Hush network
+* Add CasinoCoin
+* Add CPUchain
+* Add Wagerr
+* Add VeChain
+* Option to not use 'change' field for ethereum networks in bip45
+* Add segwit parameters for MONKEY, BCA, BTC, MONA, SYS, VIA, DOGEt, LTCt
+* Convert mnemonic back to raw entropy
+* Add 2-of-3 phrase cards
+* Move position of hardened addresses checkbox to address table
+
+# 0.3.12
+
+* Fix typos
+* Fix DigiByte signing message
+* Add DeepOnion network
+* Add EOS network
+* Add LTC testnetwork
+* Add DOGE testnetwork
+* Add Stellar network
+* Add TWINS network
+* Add FIX network
+
+# 0.3.11
+
+* Add NIX network
+* Fix coin parameters for NMC, XMY, CLAM, ONX, LKR
+* Add DEXON network
+* Add Nebulas network
+* Add LSP network
+* Fix Crown network address format
+* Add Ellaism network
+* Add Etheresocial network
+* Add Bolivarcoin network
+* Force spellcheck and autocomplete to be off
+
+# 0.3.10
+
+* Add Phore network
+* Add Blocknode network
+* Add Ravencoin network
+* Add Safecoin network
+* Add LitecoinZ network
+* Add LKRcoin network
+* Update Peercoin scripthash parameter
+* Add Blockstamp network
+* Remove old info regarding use of private keys
+
+# 0.3.9
+
+* Update BTG signing message
+* Add segwit parameters for BTG
+* Add segwit parameters for DigiByte
+* Add Stash network (see 0.3.8s below)
+* Add Salus network
+* Add Cryptoescudo network
+* Add ExchangeCoin network
+* Add Artax network
+* Add BitCloud network
+* Add Megacoin network
+* Add Bitcoin Green network
+* Add ANON network
+* Add ProjectCoin network
+* Reword the 'generate' inputs and words
+* Add note for running http server in python 2
+* Adjust test to run reliably on slow computers
+
+# 0.3.8s
+
+* Add Stash network
+
+# 0.3.8
+
+* Add p2wpkh for litecoin
+* Add more networks - TSTRAT, Hush, ETC, PIRL, CLO, MIX, MUSIC, POA, EXP
+* Add coinomi/ledger client to BIP32 tab
+* Fix SYSCOIN and BTX parameters
+* Remove bip39-standalone.html from repository
+* Remove duplicate id properties on html elements
+
+# 0.3.7
+
+* Update AXE network parameters
+* Add new networks - Xuez, BTCP, BTCZ, ZCL, ZEN
+* Add litecoin bech32 params
+* Fix BIP38 for altcoins
+* Fix missing span closing tag
+* Add indicator to UI for when BIP84 is unavailable
+* Replace hasSegwit variable with test for segwit params
+* Allow xpub to be used as root key for segwit derivations
+* Add visual privacy safeguard
+
 # 0.3.6
 
 * Add Kobocoin
